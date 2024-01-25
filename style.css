@@ -1,0 +1,459 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+nav >a{
+    font-size: 22px;
+    color: black;
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.icons >i{
+    margin: 0 20px;
+    font-size: 40px;
+    color: black;
+    cursor: pointer;
+    transition: 250ms;
+}
+h1{
+    font-size: 100px;
+    text-align: center;
+}
+.header-content > p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.box-trash{
+    margin: 100px 0px;
+    text-align: center;
+    height: 500px;
+    max-width: 1920px;
+}
+
+h2{
+    font-size: 70px;
+}
+.my-project{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.my-project > i{
+    font-size: 40px;
+    color: black;   
+}
+
+.my-project__details{
+    margin-bottom: 200px;
+    color: gray;
+}
+h3{
+    font-size: 60px;
+    color: gray;
+    transition: 300ms;
+}
+.my-project__details-line{
+    max-width: 1000px;
+    min-width: 700px;
+    height: auto;
+    border-bottom: 1px solid gray;
+    border-radius: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+p{
+    font-size: 22px;
+    color: gray;
+    transition: 300ms;
+}
+.about-me{
+    max-width: 1920px;
+    min-width: 500px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 30px;
+    text-align: center;
+    padding: 100px 0px;
+}
+h4{
+    font-size: 45px;
+    color: white;
+    width: 1000px;
+}
+.eye{
+    font-size: 40px;
+    margin: 0 20px;
+    color: white;
+    text-align: center;
+    width: 1860px;
+}
+.using-tools{
+    background-color:black;
+    padding-top: 100px;
+    width: 1900px;
+}
+.using-tools,.using-tools>p{
+    color: white;
+}
+.using-tools > i{
+    font-size: 40px;
+    color: white;   
+}
+h5{
+    font-size: 40px;
+}
+.using-tools{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 200px;
+}
+.using-tools__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:300px;
+}
+.using-tools__p{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.using-tools__content-lines{
+    display: grid;
+    grid-template-columns: 300px ;
+    grid-template-rows: 200px 200px 200px ;
+    gap: 20px;
+}
+h6{
+    font-size: 40px;
+}
+footer{
+    width: 1000px;
+}
+.footer-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 0px;
+}
+#line-1{
+    cursor: pointer;
+}
+.line-2{
+    cursor: pointer;
+}
+.line-3{
+    cursor: pointer;
+}
+.line-4{
+    cursor: pointer;
+}
+.line1-photo{
+    transition: 400ms;
+    margin-left: 20px;
+    margin-top: 300px;
+    height: 450px;
+    width: 650px;
+    opacity: 0;
+    position: absolute;
+    border-radius: 5px;
+}
+.line2-photo{
+    transition: 400ms;
+    margin-left: 100px;
+    margin-top: 300px;
+    height: 650px;
+    width: 500px;
+    opacity: 0;
+    position: absolute;
+    border-radius: 5px;
+}
+.line3-photo{
+    transition: 400ms;
+    margin-left: 100px;
+    margin-top: 300px;
+    height: 650px;
+    width: 500px;
+    opacity: 0;
+    position: absolute;
+    border-radius: 5px;
+}
+.line4-photo{
+    transition: 400ms;
+    margin-left: 100px;
+    margin-top: 300px;
+    height: 650px;
+    width: 500px;
+    opacity: 0;
+    position: absolute;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+#line-1:hover + .line1-photo{
+    opacity: 1;
+    margin-top: 0px;
+}
+.line-2:hover + .line2-photo{
+    opacity: 1;
+    margin-top: 0;
+}
+.line-3:hover + .line3-photo{
+    opacity: 1;
+    margin-top: 0;
+}
+.line-4:hover + .line4-photo{
+    opacity: 1;
+    margin-top: 0;
+}
+.my-project__details-line:hover h3{
+    margin-left: 50px;
+    color: black;
+}
+.my-project__details-line:hover p{
+    color: black;
+    margin-right: 10px;
+}
+#name:hover{
+    transform: translateY(-3px);
+    text-shadow: 2px 2px 4px #000000;
+}
+#name{
+    transition: 300ms;
+}
+.nav-contact:hover{
+    text-shadow: 2px 2px 4px #000000;
+    transform: translateY(-3px);
+}
+.nav-contact{
+    transition: 300ms;
+}
+nav>a, .nav-contact{
+    cursor: pointer;
+    font-size: 22px;
+    color: black;
+}
+.icons >i:hover{
+    text-shadow: 2px 2px 4px #000000;
+    transform: translate(-3px);
+}
+#trash{
+    height: 200px;
+    width: 200px;
+    background-color:black;
+    transition: 300ms;
+    animation-name: trash1;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-in-out;
+    position: absolute;
+}
+#trash2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+    animation: trash2 9s ease infinite;
+    position: absolute;
+}
+#trash3{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+    animation: trash3 4s ease infinite;
+    position: absolute;
+}
+#trash4{
+    width: 50px;
+    height: 50px;
+    border: solid 1px black;
+      position: absolute;
+      animation: trash4 8s ease infinite;
+}
+#trash5{
+    width: 110px;
+    height: 110px;
+    border: 1px solid black;
+    position: absolute;
+    border-radius: 50%;
+    animation: trash5 8s ease-in-out infinite;
+}
+#trash6{
+    width: 200px;
+    height: 100px;
+    background: red;
+    border-radius: 100px / 50px;
+    position: absolute;
+    animation: trash6 8s ease-in-out infinite;
+      
+}
+@keyframes trash1 {
+    0%{
+        margin: -100px 0px 0px -700px;
+
+    }
+    50%{
+        margin:200px 0px 0px  700px;
+        transform: rotate(2000deg);
+        height: 180px;
+        width: 180px;
+    }
+    100%{
+        margin: -100px 0px 0px -700px;
+        height: 200px;
+        width: 200px;
+    }
+}
+@keyframes trash2 {
+    0%{
+        margin-top:-100px;
+    }
+    25%{
+        margin-top: 300px;
+    }
+    26%{
+        height: 210px;
+        width: 210px;
+    }
+    60%{
+        margin: 100px 0px 0px -500px;
+    }
+    80%{
+        margin: 0px 0px 0px 200px;
+    }
+    90%{
+        height: 50px;
+        width: 50px;
+    }
+    100%{
+        margin-top:-100px;
+    }
+}
+@keyframes trash3 {
+    0%{
+        margin: -100px 0 0 0;
+    }
+    25%{
+        margin: 100px 0px 0px 100px;
+    }
+    50%{
+        margin: 200px 0px 0px 0px;
+    }
+    75%{
+        margin: 100px 0px 0px -100px;
+    }
+    100%{
+        transform: rotate(360deg);
+        margin: -100px 0 0 0;
+    }
+}
+@keyframes trash4 {
+    0%{
+        margin: 300px 0 0 -800px;
+    }
+    40%{
+        margin: -20px 0 0 600px;
+        width: 300px;
+        height: 300px;
+        transform: rotate(170deg);
+    }
+    64%{
+        margin: 200px 0 0 400px;
+        width: 240px;
+        height: 240px;
+        transform: rotate(310deg);
+    }
+    82%{
+        margin: 130px 0 0 -100px;
+        width: 120px;
+        height: 120px;
+        transform: rotate(100deg);
+    }
+    100%{
+        margin: 300px 0 0 -800px;
+        width: 50px;
+        height: 50px;
+        transform: rotate(0deg);
+    }
+}
+@keyframes trash5 {
+    0%{
+        margin: 0 0 0 500px;
+    }
+    25%{
+        margin: 400px 0 0 0;
+        width: 120px;
+        height: 120px;
+    }
+    50%{
+        margin: 0;
+        width: 110px;
+        height: 110px;
+    }
+    75%{
+        margin: 400px 0 0 500px;
+        width: 120px;
+        height: 120px;
+    }
+    100%{
+        margin: 0 0 0 500px;
+        width: 110px;
+        height: 110px;
+    }
+}
+@keyframes trash6{
+    0%{
+        margin: 300px 0 0 -100px;
+        transform: rotate(60deg);
+    }
+    50%{
+        margin: -100px 0px 0px -700px;
+        transform: rotate(160deg);
+    }
+    90%{
+        margin: 400px 0 0 0;
+        transform: rotate(180deg);
+    }
+    100%{
+        margin: 300px 0 0 -100px;
+        transform: rotate(60deg);
+    }
+}
