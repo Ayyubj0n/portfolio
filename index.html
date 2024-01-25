@@ -2,45 +2,129 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <h1>Erkinov Ayyubjon</h1>
-    <img src="photo_2023-10-06_15-11-56.jpg" alt="my photo" height="100px">
-    <h2>Summary</h2>
-    <p>I am a curious and hardworking individual with experience in 5 programming languages</p>
-    <hr>
-    <h2>Education</h2>
-    <ul>
-        <li>Academic lyceum of architectural and building in Tashkent (2021-2023)</li>
-        <li>Zhejiang university and technology (2023-to this day)</li>
-    </ul>
-    <hr>
-    <h2>Working expirience</h2>
-    <ul>
-        <li>none</li>
-    </ul>
-    <hr>
-    <h2>Skills</h2>
-    <ul>
-        <li>Microsoft office</li>
-        <li>C++</li>
-        <li>Pascal</li>
-        <li>Arduino</li>
-        <li>Java script</li>
-        <li>C#</li>
-    </ul>
-    <hr>
-    <h2>Awards and Certifications</h2>
-    <ul>
-        <li>Certification for ending the course creating games in unity</li>
-        <li>Certification for ending arduino uno course</li>
-        <li>Certification for ending c++ course from lyceum</li>
-    </ul>
-    <h2>Other</h2>
-    <a href="hobbys.html">My hobbys</a> <br>
-    <a href="contact.html">Contact me</a>
+    <header>
+        <nav>
+            <a id="name"><span> AYYUB</span> <br>ERKINOV</a>
+            <div class="nav-contact">
+            <a id="contact">Contact </a>
+            <i class="fa-regular fa-envelope"></i>
+        </div>
+        </nav>
+
+        <div class="header-content">
+        <div class="icons">
+        <i class="fa-solid fa-paperclip proj" onclick="document.getElementById('scroll1').scrollIntoView()"></i>
+        <i class="fa-regular fa-eye" onclick="document.getElementById('scroll2').scrollIntoView()"></i>
+        <i class="fa-solid fa-crosshairs" onclick="document.getElementById('scroll3').scrollIntoView()"></i>
+        </div>
+        <h1>I AM A FRONT-END  WEB<br> DEVELOPER</h1>
+        <p>I am a front-end web developer and begginer at freelance. I have pretty much capstone projects that i did you may see it <br> by scrolling down or clicking on paperclip :></p>
+    </div>
+    </header>
+
+    <div class="box-trash">
+        <div id="trash"></div>
+        <div id="trash2"></div>
+        <div id="trash3"></div>
+        <div id="trash4"></div>
+        <div id="trash5"></div>
+        <div id="trash6"></div>
+    </div>
+
+    <section class="my-project">
+
+        <i class="fa-solid fa-paperclip" id="scroll1"></i>
+    <h2>My Capstone Projects</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus consequuntur laudantium, necessitatibus omnis eius molestiae <br> ullam sunt ut molestias magnam maiores aliquid accusamus quo tempora. Non et magnam rem dolorem.</p>
+    
+    <div class="my-project__details">
+        <div class="my-project__details-line" id="line-1"> 
+            <h3>My first portfolio</h3> 
+            <p>Ayyub</p></div>
+            <img src="photo/Screenshot 2024-01-22 100153.png" alt="" class=" linePhoto line1-photo">
+        <div class="my-project__details-line line-2">
+            <h3>Street 88</h3> 
+            <p>Fast Food</p></div>
+            <img src="photo/Screenshot 2024-01-22 095426.png" alt="" class="linePhoto line2-photo">
+        <div class="my-project__details-line line-3">
+            <h3>Jewelery</h3> 
+            <p>Jewelery</p></div>
+            <img src="photo/Screenshot 2024-01-22 095510.png" alt="" class="linePhoto line3-photo">
+        <div class="my-project__details-line line-4">
+            <h3>Architectoral</h3> 
+            <p>Architect</p></div>
+            <img src="photo/Screenshot 2024-01-22 095616.png" alt="" class="linePhoto line4-photo">
+    </div>
+    </section>
+
+
+    <section class="about-me">
+        <i class="fa-regular fa-eye eye" id="scroll2"></i>
+        <h4>
+            Working remotely for clients worldwide, I can create any type of front-end web site or copy it Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut vel repudiandae molestiae quis! Dolorem, consectetur! Reiciendis, placeat libero, facilis similique tempore quisquam et recusandae pariatur sequi cumque deleniti praesentium provident.
+        </h4>
+    </section>
+
+    <section class="using-tools">
+        <i class="fa-solid fa-crosshairs" id="scroll3"></i>
+        
+        <div class="using-tools__content">
+            <div class="using-tools__p">
+            <h5>
+                Go with me 
+            </h5>
+            <p>
+              <br>  I will suit your needs both now and in the future.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ut. Harum explicabo accusamus illum consequatur, deleniti porro perspiciatis odio voluptates blanditiis, praesentium inventore! Perspiciatis minus, cum illum nam ipsam natus.
+            </p>
+        </div>
+
+            <div class="using-tools__content-lines">
+                <div class="lines-details">
+                    <i class="fa-solid fa-globe"></i>
+                    <h6>Simplicity</h6>
+                    <p>Say goodbye to all those plug-ins that slow you down and require constant maintainence.</p>
+                </div>
+                <div class="lines-details">
+                    <i class="fa-brands fa-slack"></i>
+                    <h6>Speed</h6>
+                    <p>Custom code you can achieve fast performance.</p>
+                </div>
+                <div class="lines-details">
+                    <i class="fa-solid fa-layer-group"></i>
+                    <h6>Scalability</h6>
+                    <p>Between the Designer and Editor UI's you can empower yourself or your team to add and change content or build new sections and pages using pre-made components. lor</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+
+        <div class="footer-nav">
+            <a href="" id="name"><span> AYYUB</span> <br>ERKINOV</a>
+            
+             <div class="icons">
+                <i class="fa-solid fa-paperclip proj" onclick="document.getElementById('scroll1').scrollIntoView()"></i>
+                <i class="fa-regular fa-eye" onclick="document.getElementById('scroll2').scrollIntoView()"></i>
+                <i class="fa-solid fa-crosshairs" onclick="document.getElementById('scroll3').scrollIntoView()"></i>
+        </div>
+        </div>
+
+    </footer>
+
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="index.js"></script>
 </body>
-</html>
+</html> 
